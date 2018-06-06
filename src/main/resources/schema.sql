@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS  user_role  (ROLE_ID BIGINT auto_increment NOT NULL PRIMARY KEY,ROLE VARCHAR(40));
+INSERT INTO  user_role(ROLE_ID,ROLE) VALUES (26, 'admin'),(27, 'user');
+COMMIT;
